@@ -43,8 +43,8 @@ Simple usage for one items
                 });
 ```
 
-## Usage (Another)
-Usage for Many Items
+## Usage (Sequence)
+Usage for many Items/Button
 
 ```
         new TapTargetSequence(this)
