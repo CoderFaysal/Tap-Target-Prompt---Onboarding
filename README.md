@@ -32,6 +32,7 @@ Simple usage for one items
                         .cancelable(false)
                         .tintTarget(true)
                         .transparentTarget(false)
+                        .icon(ContextCompat.getDrawable(this, R.drawable.andro_icon))
                         .targetRadius(60),
                 new TapTargetView.Listener() {
                     @Override
@@ -63,6 +64,7 @@ Usage for Many Items
                                 .cancelable(false)
                                 .tintTarget(true)
                                 .transparentTarget(false)
+                                .icon(ContextCompat.getDrawable(this, R.drawable.andro_icon))
                                 .targetRadius(60),
 
                         TapTarget.forView(btn3, "Button 2", "This is Second Button")
@@ -80,6 +82,7 @@ Usage for Many Items
                                 .cancelable(false)
                                 .tintTarget(true)
                                 .transparentTarget(false)
+                                .icon(ContextCompat.getDrawable(this, R.drawable.andro_icon))
                                 .targetRadius(60),
 
                         TapTarget.forView(btn4, "Button 3", "This is Third Button")
@@ -97,6 +100,7 @@ Usage for Many Items
                                 .cancelable(false)
                                 .tintTarget(true)
                                 .transparentTarget(false)
+                                .icon(ContextCompat.getDrawable(this, R.drawable.andro_icon))
                                 .targetRadius(60)).listener(new TapTargetSequence.Listener() {
                     @Override
                     public void onSequenceFinish() {
