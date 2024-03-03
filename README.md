@@ -18,20 +18,20 @@ Simple usage for one items
 ```
         TapTargetView.showFor(this,
                 TapTarget.forView(btn1, "This is a Button 01", "We have the best targets, believe me")
-                        .outerCircleColor(R.color.red)
-                        .outerCircleAlpha(0.96f) 
+                        .outerCircleColor(R.color.blue)
+                        .outerCircleAlpha(0.96f)
                         .targetCircleColor(R.color.white)
                         .titleTextSize(20)
                         .titleTextColor(R.color.white)
-                        .descriptionTextSize(10) 
-                        .descriptionTextColor(R.color.red)
-                        .textColor(R.color.blue)
-                        .textTypeface(Typeface.SANS_SERIF) 
+                        .descriptionTextSize(10)
+                        .descriptionTextColor(R.color.white)
+                        .textColor(R.color.white)
+                        .textTypeface(Typeface.DEFAULT)
                         .dimColor(R.color.black)
                         .drawShadow(true)
-                        .cancelable(false) 
+                        .cancelable(false)
                         .tintTarget(true)
-                        .transparentTarget(false) 
+                        .transparentTarget(false)
                         .targetRadius(60),
                 new TapTargetView.Listener() {
                     @Override
