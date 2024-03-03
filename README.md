@@ -18,7 +18,6 @@ Simple usage for one items
 ```
         TapTargetView.showFor(this,
                 TapTarget.forView(btn1, "This is a Button 01", "We have the best targets, believe me")
-                        // All options below are optional
                         .outerCircleColor(R.color.red)
                         .outerCircleAlpha(0.96f) 
                         .targetCircleColor(R.color.white)
